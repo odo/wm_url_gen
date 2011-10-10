@@ -1,0 +1,12 @@
+{application, wm_url_gen,
+ [
+  {description, ""},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { wm_url_gen_app, []}},
+  {env, []}
+ ]}.
